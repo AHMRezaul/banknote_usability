@@ -13,7 +13,7 @@ UPLOAD_DIR = 'uploaded_notes'
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-class_names = ['1', '10', '100', '1000', '2', '20', '200', '5', '50', '500']
+class_names = ['1', '500', '100', '1000', '50', '20', '200', '5', '2', '10']
 
 class CustomCNN(nn.Module):
     def __init__(self, num_classes):
